@@ -47,7 +47,7 @@ export default function Office() {
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
         <Reveal>
           <div className="mb-14">
-            <span className="mb-6 flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.35em] text-[black]">
+            <span className="mb-6 flex items-center justify-start gap-3 text-[11px] font-medium uppercase tracking-[0.35em] text-[black]">
               <span className="h-px w-10 bg-[black]/70" />
               Office &amp; Contact
             </span>
@@ -65,7 +65,7 @@ export default function Office() {
           {/* ── LEFT: image (no Reveal — always visible) ── */}
           <div className="flex flex-col">
             <div className="group relative overflow-hidden rounded-2xl border border-[black]/40 shadow-[0_20px_60px_rgba(0,0,0,0.14)] transition-shadow duration-500 hover:shadow-[0_28px_80px_rgba(0,0,0,0.22)]">
-              <div className="relative w-full overflow-hidden lg:min-h-[900px]">
+              <div className="relative w-full overflow-hidden min-h-[400px] sm:min-h-[500px] lg:min-h-[900px]">
                 <Image
                   src="/images/office-1.jpeg"
                   alt={`${siteData.office.name} — office chambers`}
