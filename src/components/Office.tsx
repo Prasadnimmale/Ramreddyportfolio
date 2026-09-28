@@ -62,10 +62,10 @@ export default function Office() {
 
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:items-start lg:gap-x-[50px] lg:gap-y-0">
 
-          {/* ── LEFT: image (no Reveal — always visible) ── */}
+          {/* ── LEFT: image ── */}
           <div className="flex flex-col">
             <div className="group relative overflow-hidden rounded-2xl border border-[black]/40 shadow-[0_20px_60px_rgba(0,0,0,0.14)] transition-shadow duration-500 hover:shadow-[0_28px_80px_rgba(0,0,0,0.22)]">
-              <div className="relative w-full overflow-hidden min-h-[400px] sm:min-h-[500px] lg:min-h-[900px]">
+              <div className="relative w-full overflow-hidden h-80 sm:h-96 lg:h-full lg:min-h-[900px]">
                 <Image
                   src="/images/office-1.jpeg"
                   alt={`${siteData.office.name} — office chambers`}

@@ -74,9 +74,7 @@ export default function Footer() {
               className="inline-flex items-center gap-3"
               aria-label="Home"
             >
-              <span className="flex h-11 w-11 items-center justify-center border border-white bg-white text-black">
-                <Logo className="h-8 w-8 text-lg" />
-              </span>
+              <Logo className="h-11 w-11" />
               <span className="flex flex-col leading-none">
                 <span className="text-[15px] font-semibold tracking-tight">
                   {siteData.lawyer.name}

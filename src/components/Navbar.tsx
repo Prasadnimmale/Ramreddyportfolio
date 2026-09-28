@@ -39,8 +39,8 @@ export default function Navbar() {
           onClick={handleLinkClick}
           aria-label="Home"
         >
-          <span className="flex h-10 w-10 items-center justify-center rounded-full border border-white bg-white text-black transition-colors duration-300 group-hover:bg-black group-hover:text-white">
-            <Logo className="h-4 w-4 text-[10px]" />
+          <span className="transition-transform duration-300 group-hover:scale-105">
+            <Logo className="h-10 w-10" />
           </span>
           <span className="flex flex-col leading-none">
             <span className="text-[15px] font-semibold tracking-tight text-white">
