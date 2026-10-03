@@ -50,7 +50,7 @@ export default function Contact() {
           <Reveal delay={1}>
             <div className="border border-light-grey bg-off-white p-8 sm:p-12">
               <h3 className="text-2xl font-bold tracking-tight text-black">
-                Have a Legal Matter?
+                Need Legal Consultation?
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-grey">
                 Tap the button below to start a WhatsApp chat. Your message is
