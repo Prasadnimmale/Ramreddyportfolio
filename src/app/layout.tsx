@@ -74,6 +74,9 @@ export const metadata: Metadata = {
     },
   },
   category: "lawyer",
+  verification: {
+    google: "UnNDjth0UvSgm_VsNOkgDkRlj8IsSB_f7AEQPSbFRRE",
+  },
   formatDetection: {
     telephone: false,
   },
