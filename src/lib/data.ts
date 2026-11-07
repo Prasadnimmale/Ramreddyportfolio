@@ -1,5 +1,5 @@
 export const siteData = {
-  domain: "https://ramreddyportfolio.vercel.app",
+  domain: "https://www.advocateramareddy.com",
   lawyer: {
     name: "Medapati Rama Reddy",
     shortName: "Medapati Rama Reddy",
